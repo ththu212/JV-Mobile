@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JV Mobile - Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/contract.css">
+    <link rel="stylesheet" href="./font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html" target="_blank"><img src="./img/logo/logo (1).png"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./phone.html">
+                                Sản phẩm
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contract.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="navbarOverlay" class="navbar-overlay"></div>
+    </header>
+    <main>
+        <div class="container px-5 my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 rounded-3 shadow-lg">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <div class="h1 fw-light">Contact With US</div>
+                                <p class="mb-4 text-muted">Mọi sự đóng góp và Liên hệ của bảng sẽ được
+                                    chúng tôi ghi nhận và phản hồi nhanh nhất có thể</p>
+                            </div>
+
+                            <form id="contactForm" data-sb-form-api-token="API_TOKEN" onsubmit="return validateForm()">
+
+                                <!-- Name Input -->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="name" type="text" placeholder="Name"
+                                        data-sb-validations="required" />
+                                    <label for="name">Name</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.
+                                    </div>
+                                </div>
+
+                                <!-- Email Input -->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="emailAddress" type="email"
+                                        placeholder="Email Address" data-sb-validations="required,email" />
+                                    <label for="emailAddress">Email Address</label>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address
+                                        is required.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address
+                                        Email is not valid.</div>
+                                </div>
+
+                                <!-- Message Input -->
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" type="text" placeholder="Message"
+                                        style="height: 10rem;" data-sb-validations="required"></textarea>
+                                    <label for="message">Message</label>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is
+                                        required.</div>
+                                </div>
+
+                                <!-- Submit success message -->
+                                <!-- <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">
+                                        <div class="fw-bolder">Form submission successful!</div>
+                                        <p>To activate this form, sign up at</p>
+                                        <a
+                                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    </div>
+                                </div> -->
+
+                                <!-- Submit error message -->
+                                <div class="d-none" id="submitErrorMessage">
+                                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                                </div>
+
+                                <!-- Submit button -->
+                                <div class="d-grid">
+                                    <button class="btn btn-primary " id="submitButton" type="submit">Gửi</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="py-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">TRƯỜNG ĐẠI HỌC FPT CẦN THƠ</h3>
+                <p class="text-center">600, đường Nguyễn Văn Cừ (nối dài), phường An Bình, quận Ninh Kiều, TP. Cần Thơ
+                </p>
+                <p class="text-center">&copy; 2023 JV Mobile. All rights reserved.</p>
+
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <img src="./img/logo/logo-footer.png" alt="footer">
+
+                    <a href="https://www.facebook.com/thu.vothanh.52/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/logo/Facebook_icon.svg.webp" alt="">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

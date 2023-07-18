@@ -1,0 +1,162 @@
+main {
+    padding-top: 70px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.navbar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+.navbar-overlay.show {
+    display: block;
+}
+
+main ul li {
+    list-style-type: none;
+}
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.img-iphone,
+.img-samsung {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    color: #e2e0e0;
+    background-color: #8b8b8b;
+    border-color: #030303;
+}
+
+.product-card {
+    background-color: #ac7b7b42;
+}
+
+
+main ul a:hover {
+    color: #e2e0e0;
+    background-color: #8b8b8b;
+    border-color: #030303;
+}
+main ul a{
+    text-decoration: none;
+    color: #f4f4f4;
+    display: block;
+    border: #faf8f8 1px solid;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+.menu {
+    border-bottom: #000000 1.5px solid;
+    position: fixed;
+    top: 65px;
+    background-color: #000000df;
+    z-index: 2;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+main {
+    padding-top: 225px;
+}
+
+h2 {
+    border: #000000 1px solid;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+footer {
+    border-top: #8b8b8b 1px solid;
+}
+footer a img {
+    width: 80px;
+    margin-left: 20px;
+}
+
+footer h3 {
+    color: #ee7b10;
+}
+
+footer .col-md-6 div {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+footer .col-md-6 div {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+.col-md-8 img {
+    width: 100%;
+}
+.col-md-8 div{
+    margin: 10px 10px;
+}

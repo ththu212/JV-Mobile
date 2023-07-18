@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JV Mobile - Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/phone.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html" target="_blank"><img src="./img/logo/logo (1).png"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./phone.html">
+                                Sản phẩm
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contract.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="navbarOverlay" class="navbar-overlay"></div>
+    </header>
+    <main>
+        <div class="menu">
+            <ul class="row">
+                <li>
+                    <a href="#" onclick="showAllProducts()">Tất cả điện thoại</a>
+                </li>
+                <li class="col-md-6"><a href="#" onclick="showIphoneProducts()">Điện thoại
+                        iPhone</a>
+                </li>
+                <li class="col-md-6"><a href="#" onclick="showSamsungProducts()">Điện thoại
+                        Samsung</a></li>
+    
+            </ul>
+        </div>
+        
+        <section class="container my-5">
+            <h2 id="categoryTitle" class="text-center mb-3">Tất cả điện thoại</h2>
+            <div id="allProduct" class="row">
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/galaxy_a34.webp" class="card-img-top" alt="Samsung">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A34 5G</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">6.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/galaxy_s21_fe.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S21 FE</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">10.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/11-64.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 11 64GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">10.050.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/galaxy_s23.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S23 Ultra</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">26.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/12mini-128.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">IPhone 12 Mini 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">14.490.000đ</p>
+                            </p> <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/13-128gb.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 13 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">22.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/galaxy_z_fold_4-7.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy Z Fold </h5>
+                            <p class="card-text">Giá:
+                            <p class="price">27.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/samsung-galaxy-20-fe_4_.webp" class="card-img-top"
+                                alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S20 FE</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">7.000.000</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/13-pm-128.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 13 ProMax 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">25.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/14-256.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 14 256GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">21.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/samsung_galaxy_z_flip_m_i_2022-1_1.webp" class="card-img-top"
+                                alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy Z-Flip</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">17.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/14plus-128.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 14 Plus 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">22.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/14pm256.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 14 ProMax 256GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">27.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/samsungs22ulta.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung S22 Ultra</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">16.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/samsungs23ultra.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung S23 Ultra</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">27.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/iphone14pro128.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 14 Pro 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">26.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="iphoneProducts" class="row d-none">
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/11-64.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 11 64GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">10.050.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/12mini-128.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">IPhone 12 Mini 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">14.490.000đ</p>
+                            </p> <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/13-128gb.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 13 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">22.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/13-pm-128.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 13 ProMax 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">25.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/14-256.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 14 256GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">21.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/iphone14pro128.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 14 Pro 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">26.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/14plus-128.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 14 Plus 128GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">22.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-iphone">
+                            <img src="./img/phone/iphone/14pm256.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 14 ProMax 256GB</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">27.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="samsungProducts" class="row d-none">
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/galaxy_a34.webp" class="card-img-top" alt="Samsung">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A34 5G</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">6.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/galaxy_s21_fe.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S21 FE</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">10.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/galaxy_s23.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S23 Ultra</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">26.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/galaxy_z_fold_4-7.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy Z Fold </h5>
+                            <p class="card-text">Giá:
+                            <p class="price">27.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/samsung-galaxy-20-fe_4_.webp" class="card-img-top"
+                                alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S20 FE</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">7.000.000</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/samsung_galaxy_z_flip_m_i_2022-1_1.webp" class="card-img-top"
+                                alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy Z-Flip</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">17.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/samsungs22ulta.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung S22 Ultra</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">16.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-card card">
+                        <div class="img-samsung">
+                            <img src="./img/phone/samsung/samsungs23ultra.webp" class="card-img-top" alt="iPhone 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung S23 Ultra</h5>
+                            <p class="card-text">Giá:
+                            <p class="price">27.490.000đ</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">TRƯỜNG ĐẠI HỌC FPT CẦN THƠ</h3>
+                <p class="text-center">600, đường Nguyễn Văn Cừ (nối dài), phường An Bình, quận Ninh Kiều, TP. Cần Thơ
+                </p>
+                <p class="text-center">&copy; 2023 JV Mobile. All rights reserved.</p>
+
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <img src="./img/logo/logo-footer.png" alt="footer">
+
+                    <a href="https://www.facebook.com/thu.vothanh.52/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/logo/Facebook_icon.svg.webp" alt="">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
